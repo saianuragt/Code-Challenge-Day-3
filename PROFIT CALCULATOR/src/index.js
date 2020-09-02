@@ -7,8 +7,10 @@
 
 // Write the function to return the profit obtained.
 function find_Profit(x,a,b){
-
-    return null;
+    let sp = Math.floor(x*a);
+    let cp = Math.floor(x*b+100);
+    let profit = (sp-cp);
+    return profit;
 }
 
 //Use SpecRunner to check the Test Cases.
